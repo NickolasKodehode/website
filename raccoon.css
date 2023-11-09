@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+
+body {
+background-color: #6f9580;
+color: #e4e4dc;
+}
+
+nav {
+display: flex;
+justify-content: space-between;
+height: 100px;
+background-color: #514a36;
+color: #e4e4dc;
+padding-inline: 40px;
+
+}
+
+nav p {
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 70px;
+}
+
+nav a {
+color: #e4e4dc;
+text-decoration: none;
+display: flex;
+}
+
+
+div.logo {
+margin-top: 0;
+height: 100px;
+width: 100px;
+gap: 10px;
+background-color: #e4e4dc;
+display: flex;
+justify-content: center;
+align-items: center;
+border-width: 5px;
+}
+
+div.nav-items {
+    display: flex;
+    justify-content: center;
+align-items: center;
+gap: 25px;
+}
+
+section.section_2 {
+background-color: #bfcab4;
+height: 300px;
+}
+
+.box-wrapper {
+display: flex;
+/*align-items:center;*/
+gap: 20px;
+}
+
+.box-wrapper article {
+    padding-top: 30px;
+    max-width: 450px;
+}
+
+.inner-wrapper {
+text-align: center;
+gap: 20px;
+max-width: 170px;
+max-height: 300px;
+}
+
+
+.box {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 150px;
+height: 150px;
+margin: 10px;
+border: 5px solid #e4e4dc;
+box-shadow: 5px 5px 5px solid black;
+opacity: 0.7;
+transition: all 0.3s ease;
+}
+
+.box:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.box p {
+    color: white;
+    padding: 5px 10px;
+    background-color: #bfcab4;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px inset black;
+    cursor: pointer;
+    user-select: none;
+}
+
+.box p:active {
+    transform: scale(1.2);
+}
+
+.box1 {
+background-color: #514a36;
+}
+
+.box2 {
+background-color: #514a36;
+}
+
+.box3 {
+background-color: #514a36;
+}
+
+.box4 {
+    flex: 1.5;
+background-color: #514a36;
+}
+
+.box5 {
+    flex: 2.5;
+background-color: #514a36;
+}
+.box6 {
+    flex: 1.2;
+background-color: #514a36;
+}
+
+.flextest {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+img {
+    width: 90%;
+height: 90%;
+}
